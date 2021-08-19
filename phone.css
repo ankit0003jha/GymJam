@@ -1,0 +1,148 @@
+/* Navigation */
+.navbar {
+    flex-direction: column;
+   
+}
+
+.navbar ul{
+    margin: auto;
+    
+}
+
+.navbar ul li a{
+    font-size: 0.9rem;
+    padding: 0px 5px;
+    padding-bottom: 8px;
+}
+
+.btn:hover{
+    border: 3px solid transparent;
+    color: red;
+}
+
+
+
+
+
+/* Home section */
+#home{
+    padding: 9px 0px;
+    margin: 480px 0px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+#home::before{
+    height: 580px; 
+}
+
+#home p{
+    font-size: 12px;
+    
+}
+
+
+.h1-primary{
+    transform: scale(1.2);   
+}
+
+
+/* About us section */
+
+#about{
+    flex-direction: column;
+}
+
+#about video{
+    margin: 10px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+
+#about div.aboutus h1{
+    
+    margin-top: -630px;
+    margin-bottom: 30px;
+    text-align: center;
+  
+}
+
+#about div.aboutus p{
+ 
+    width: 100%;
+    text-align: center;
+}
+#about button.btn{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+/* Classes Section */
+
+#class{
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+#classes{
+    margin: 0px;
+}
+
+#class .box img{
+    display: flex;
+    width: 100%;
+    height: 320px;   
+}
+
+#class .box{
+    margin: 30px 0px;
+}
+
+#class .box h1{
+    width:100%;
+   
+}
+
+.h1-classes{
+    font-size: 30px;
+    margin-top: 100px;
+}
+
+
+/* Contact us section */
+#contact-box form{
+    width:70%;
+
+}
+#contact-box{
+    
+    padding: 0px 0px;
+}
+
+#contact{
+    margin-top: 35px;
+ }
+
+.h-primary{
+    margin: 0px;
+}
+
+
+
+
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+    font-size:26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
