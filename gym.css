@@ -94,7 +94,7 @@ body{
 #home::before{ 
     content: "";
     position: absolute;
-    background: url("https://cdn.pixabay.com/photo/2016/11/19/12/43/dark-1839088_960_720.jpg") no-repeat center center/cover;
+    background: url("img/1.jpg") no-repeat center center/cover;
     height: 700px;
     top:0px;
     left:0px;
